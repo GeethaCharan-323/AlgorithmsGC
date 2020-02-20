@@ -58,3 +58,16 @@ public class Dijkstra {
         }
     }
 }
+/* OUTPUT
+Enter the number of vertices: 
+4
+Enter the adjacency matrix
+0 4 5 7
+4 0 0 1
+5 0 0 2
+7 1 2 0
+Shortest Paths to 
+1 = 1 <- 0  Distance :4
+2 = 2 <- 0  Distance :5
+3 = 3 <- 1 <- 0  Distance :5
+*/
